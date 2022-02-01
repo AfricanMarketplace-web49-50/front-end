@@ -60,21 +60,21 @@ export const NavBtn = styled.nav`
 `;
 
 export const NavBtnLink = styled(Link)`
-    border-radius: 4px;
-    background: #256ce1;
-    padding: 10px 22px;
-    color: #fff;
-    border: none; 
-    outline: none;
-    cursor: pointer; 
-    transition: all 0.2s ease-in-out;
-    text-decoration: none;
-    
-    margin-left:24px;
+  border-radius: 4px;
+  background: #256ce1;
+  padding: 10px 22px;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
 
-    &:hover {
-        all 0.2s ease-in-out;
-        background: #fff;
-        color: #010606;
-    }
+  margin-left: 24px;
+
+  &:hover {
+    all: 0.2s ease-in-out;
+    background: #fff;
+    color: #010606;
+  }
 `;
