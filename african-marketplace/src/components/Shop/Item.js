@@ -1,13 +1,14 @@
-import React from 'react';
+import React from "react";
+import { ItemCard, ItemName, ItemPrice, Button } from "./ShopElements";
 
-const Item = props => {
-  return(
-    <div className='item'>
-      <h3>{props.item.name}</h3>
-      <h3>{props.item.price}</h3>
+const Item = (props) => {
+  return (
+    <ItemCard>
+      <ItemName>{props.item.name}</ItemName>
+      <ItemPrice>{props.item.price}</ItemPrice>
       <button> Buy </button>
-    </div>
-  )
-}
+    </ItemCard>
+  );
+};
 
 export default Item;
