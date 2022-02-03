@@ -1,4 +1,6 @@
 import React from 'react';
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 import Item from './Item';
 
@@ -38,6 +40,9 @@ const dummyData = [
 const Shop = () => {
   return(
     <div>
+      <div className='addItem-button'>
+        <Button to='/shop/add-item' >Add Item </Button>
+      </div>
       <h1>List of Items</h1>
 			{dummyData.map(item => (
         <Item
@@ -49,3 +54,16 @@ const Shop = () => {
 }
 
 export default Shop;
+
+const Button = styled(Link)`
+  background: #256ce1;
+  color: white;
+  padding: 2% 4%;
+  border-radius: 10px;
+  text-decoration: none;
+  &:hover{
+    cursor:pointer;
+    background: #fff; //#d4d977 Vomit Green
+    color: #010606;
+  }
+`
