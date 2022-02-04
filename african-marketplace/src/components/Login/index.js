@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import axios from 'axios';
+
 import {
   LoginWrapper,
   FormWrapper,
@@ -22,8 +24,17 @@ const Login = () => {
 
   function handleClick(e) {
     e.preventDefault();
-    console.log(formFields);
+    console.log(formFields)
+
+    // axios.post('https://african-marketplace-web-49-50.herokuapp.com/api/auth/login', formFields)
+    //   .then(resp => {
+    //     console.log(resp)
+    //   })
+    //   .catch(error => {
+    //     console.log(error.response)
+    //   })
   }
+
   return (
     <>
       <LoginWrapper>
