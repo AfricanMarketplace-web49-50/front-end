@@ -1,4 +1,5 @@
 import React from 'react';
+import { ItemCard, ItemName, ItemPrice, ItemHeadline, ItemCardWrapper } from './PriceListElements';
 
 class Prices extends React.Component {
   state = {
@@ -25,18 +26,18 @@ class Prices extends React.Component {
   render() {
     return (
       <>
-      <h1>{this.props.category}</h1>
-      <div>
+      <ItemHeadline>{this.props.category}</ItemHeadline>
+      <ItemCard>
         {
           this.state.items.map(item => (
-            <>
-                <h3>{item.name}</h3>
-                <h3>{item.price}</h3>
-              </>
+            <ItemCardWrapper>
+                <ItemName>{item.name}</ItemName>
+                <ItemPrice>{item.price}</ItemPrice>
+              </ItemCardWrapper>
             ))
           }
 
-      </div>
+      </ItemCard>
       </>
     )
   }

@@ -12,7 +12,9 @@ export const ListOfItemsWrapper = styled.div`
 export const ListHeader = styled.div`
   display: flex;
   flex-direction: row;
-  background-color: yellow;
+  background-color: #f5853f;
+  border: 1px solid black;
+  border-radius: 15px;
   width: 75%;
   justify-content: space-around;
   padding: 2%;
@@ -28,7 +30,29 @@ export const ItemHeader = styled.h1`
 export const Button = styled(Link)`
   display: flex;
   border: none;
-  outline: none;
+  outline: 1px solid black;
+  box-shadow: 2px 2px 5px black;
+  background: #256ce1;
+  white-space: nowrap;
+  color: white;
+  padding: 2% 4%;
+  border-radius: 15px;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    cursor: pointer;
+    background: #fff; //#d4d977 Vomit Green
+    color: #010606;
+  }
+`;
+
+export const BuyButton = styled.button`
+  display: flex;
+  border: none;
+  outline: 1px solid black;
+  box-shadow: 2px 2px 5px black;
   background: #256ce1;
   white-space: nowrap;
   color: white;
@@ -57,9 +81,9 @@ export const ItemCard = styled.div`
 `;
 
 export const ItemName = styled.h2`
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 `;
 
 export const ItemPrice = styled.p`
-  font-size: 1rem;
+  font-size: 2rem;
 `;

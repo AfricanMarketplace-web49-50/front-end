@@ -18,8 +18,10 @@ function App() {
       <Routes>
         <Route exact path="/sign-up" element={<Signup />} />
         <Route exact path="/login" element={<Login />} />
+        <Route exact path="/about" element={<Login />} />
         <Route exact path="/shop" element={<Shop />} />
         <Route exact path="/categories" element={<PriceList />} />
+        <Route exact path="/" element={<PriceList />} />
         <Route exact path="/shop/add-item" element={<AddItem />} />
       </Routes>
     </div>
