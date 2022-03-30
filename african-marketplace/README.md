@@ -16,6 +16,6 @@ They add a new item by selecting their market location and typing in their item'
 
 (https://www.notion.so/African-Marketplace-a449bf95188440b29436334e870c8f3e)
 
-##Vercel Deployment
+## Vercel Deployment
 
 https://front-end-2-tau.vercel.app/
