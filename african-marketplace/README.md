@@ -1,4 +1,4 @@
-### African Marketplace: Bloom Tech Build Week, December 2021
+### African Marketplace: Bloom Tech Build Week, January 2022
 
 ## ☝️ Pitch
 
