@@ -1,12 +1,12 @@
-##African Marketplace: Bloom Tech Build Week, December 2021
+### African Marketplace: Bloom Tech Build Week, December 2021
 
-##☝️ Pitch
+## ☝️ Pitch
 
 Sauti Africa empowers small business owners, particularly women, to improve their business and economic opportunities to grow out of poverty.
 
 You will build a platform to enable these business owners to create listings for items they have for sale.
 
-##✅ MVP
+## ✅ MVP
 
 A small business owner can log in and see relevant prices in various categories to help them set their own prices.
 
